@@ -4,7 +4,8 @@
   "description": "A babel plugin for transpiling Irish into valid JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel ./examples/example1.js --out-file ./compiled/compiled.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1"
   }
 }
