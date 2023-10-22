@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-as-gaeilge",
+  "version": "1.0.0",
+  "description": "A babel plugin for transpiling Irish into valid JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdunph231/babel-plugin-as-gaeilge.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "Irish",
+    "educational"
+  ],
+  "author": "Conor Dunphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdunph231/babel-plugin-as-gaeilge/issues"
+  },
+  "homepage": "https://github.com/cdunph231/babel-plugin-as-gaeilge#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "jest": "^29.7.0"
+  }
+}
